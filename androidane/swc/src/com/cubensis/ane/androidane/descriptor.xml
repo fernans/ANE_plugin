@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension xmlns="http://ns.adobe.com/air/extension/2.5">
+	<id>com.cubensis.ane.androidane</id>
+	<versionNumber>1.0.0</versionNumber>
+	<platforms>
+	    <platform name="Android-ARM"> 
+            <applicationDeployment> 
+                <nativeLibrary>AndroidANE.jar</nativeLibrary> 
+                <initializer>com.cubensis.ane.androidane.AndroidAneExtension</initializer> 
+                <finalizer>com.cubensis.ane.androidane.AndroidAneExtension</finalizer>
+            </applicationDeployment>
+        </platform>
+	</platforms>
+</extension>

@@ -1,0 +1,10 @@
+# Intermediate build artifacts (Eclipse ADT / CDT)
+androidane/jar/bin/
+androidane/jar/gen/
+ANEtest/SWF/bin/
+*.o
+
+# macOS junk
+.DS_Store
+._*
+.DS_Store?
